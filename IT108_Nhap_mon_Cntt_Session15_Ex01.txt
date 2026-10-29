@@ -1,0 +1,21 @@
+﻿Bài 1 : Loại bỏ rủi ro lưu trữ cục bộ trong dự án nhóm 
+Phần 1 (Phân tích):
+* Lỗi 1: Nam làm mất đoạn code quan trọng tại thời điểm sát giờ demo với khách
+hàng.
+* Hậu quả: gây trễ deadline, ảnh hưởng uy tín của startup "Smart Food" trước khách hàng, làm cho thành viên trong nhóm khó chịu vì đây là uy tín của startup “Smart Food”. 
+
+
+* Lỗi 2: không chịu lưu trên Cloud
+* Hậu quả: do chỉ lưu trên ổ cứng máy tính cá nhân mà không lưu  lên Cloud, toàn bộ những thao tác lưu vào xóa chỉ có ổ cứng đảm nhận. Chỉ cần lỡ tay lưu đè hoặc máy tính gặp trục trặc thì dữ liệu sẽ biến mất hoàn toàn mà không có bản sao lưu nào để giữ lại dữ liệu.
+
+
+* Lỗi 3: Nam Ctrl +S để lưu đè do lỡ tay xóa một đoạn code quan trọng trong file main_v2_final.py nhưng file này chỉ được lưu trên ổ đĩa laptop của Nam và Nam không có tạo bản sao lưu để coi lại dữ liệu trước đó
+* Hậu quả: phải viết lại từ đầu, tốn thời gian và công sức do bị mất dữ liệu cũ
+
+
+Phần 2 (Sửa lỗi):
+* Tải Google drive for Desktop 
+* Sau đó chọn folder trên ổ đĩa D
+* Bật chế độ Sync with google drive
+* Khi Ctrl + S lưu file trên máy thì biểu tượng tích xanh sẽ hiện ra và file đã lưu trên Cloud
+* Nếu lỡ xóa nhầm nội dung nào đó chỉ cần chọn Version History thì sẽ khôi phục lại chỉ cần 1 click chuột
